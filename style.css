@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+}
+html,
+body {
+  box-sizing: border-box;
+}
+button {
+  width: 150px;
+  display: inline-block;
+  border: none;
+  padding: 1rem 2rem;
+  margin: 0;
+  text-decoration: none;
+  background: #5a0699;
+  color: #ffffff;
+  font-family: sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+button:hover,
+button:focus {
+  background: #4c0681;
+}
+
+#content {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background: black;
+  flex-direction: column;
+}
+#timer-wrapper {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  color: white;
+}
+
+.carousel-first-item,
+.carousel-third-item {
+  opacity: 0.3;
+  font-size: 66px;
+}
+
+.carousel-second-item {
+  font-size: 150px;
+}
+.dots {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  font-size: 66px;
+  width: 40px;
+}
+#time-wrapper {
+  margin-bottom: 20px;
+}
+#buttons-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.time {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 150px;
+  width: 150px;
+}
+#pause-resume-button {
+  background: red;
+}
+
+#cancel-reset-button {
+  background: #292727;
+}
+#pause-and-cancel-buttons-wrapper {
+  width: 340px;
+  display: flex;
+  justify-content: space-between;
+}
